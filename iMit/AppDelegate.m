@@ -1,18 +1,126 @@
-//
-//  AppDelegate.m
-//  iMit
-//
-//  Created by hsaito on 2012/10/14.
-//  Copyright (c) 2012年 斉藤 仁. All rights reserved.
-//
-
+//■ ■ ■
+//■ AppDelegate.m
+//■ アプリケーションデリゲート 実装ファイル
+//■ ■
 #import "AppDelegate.h"
+#import "CustomerDataController.h"
+#import "CustomerViewController.h"
+#import "SectionDataController.h"
+#import "SectionViewController.h"
+#import "EstimateViewController.h"
+#import "EstimateDataController.h"
+#import "DemandViewController.h"
+#import "DemandDataController.h"
+#import "PaymentViewController.h"
+#import "PaymentDataController.h"
+#import "MituSocket.h"
+
+void uncaughtExceptionHandler(NSException *exception) {
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack Trace: %@", [exception callStackSymbols]);
+    // Internal error reporting
+}
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    //シリアルキューの作成
+    dispatch_queue_t queue = dispatch_queue_create(
+                "net.bolifushi.toyomaint.serial_queue", NULL);
+    
+    _mituSocket = [[MituSocket alloc]init];
+#if 1
+    _mituSocket.ipAddress = @"192.168.240.137";
+#endif
+#if 0
+    _mituSocket.ipAddress = @"172.24.3.50";
+#endif
+#if 0
+    _mituSocket.ipAddress = @"172.16.32.134";
+#endif
+    _mituSocket.port = 8001;
+    [_mituSocket Connect];
+    
+    //■ 自らの[ window ]プロパテリを使用して、ウィンドウの[ RootViewController ]オブジェクトを取得
+#if 0
+    //  最初の[ ViewController ]が[ UINavigationController ]であることがわかっている
+    UINavigationController *navigationController =
+        (UINavigationController *)self.window.rootViewController;
+#endif
+#if 1
+    //  最初の[ ViewController ]が[ UITabBarController ]であることがわかっている
+    UITabBarController *tabBarController =
+    (UITabBarController *)self.window.rootViewController;
+    
+    UINavigationController *navigationController;
+#endif
+
+#if 0
+    //● Customer ●
+    //■ [ NavigationController ]の[ ViewController ]配列の零番目のメンバを取得
+    CustomerViewController *firstViewController =
+        (CustomerViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    //■ データコントローラを初期化し、
+    CustomerDataController *aDataController = [[CustomerDataController alloc] initWithSocket:(MituSocket*)_mituSocket];
+#endif
+#if 0
+    //● Section ●
+    //■ [ NavigationController ]の[ ViewController ]配列の零番目のメンバを取得
+    SectionViewController *firstViewController =
+    (SectionViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    //■ データコントローラを初期化し、
+    SectionDataController *aDataController = [[SectionDataController alloc]initWithSocket:(MituSocket*)_mituSocket];
+#endif
+#if 1
+    //● Estimate ●
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:0];
+
+    EstimateViewController *firstViewController =
+    (EstimateViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    //■ データコントローラを初期化し、
+    EstimateDataController *estimateDataController =
+        [[EstimateDataController alloc]initWithSocket:(MituSocket*)_mituSocket
+                                                queue:(dispatch_queue_t)queue];
+    
+    //■ マスターシーンの[ dataController ]プロパティに割り当て
+    firstViewController.dataController = estimateDataController;
+#endif
+#if 1
+    //● Demand ●
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:1];
+
+    DemandViewController *secondViewController =
+    (DemandViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    //■ データコントローラを初期化し、
+    DemandDataController *demandDataController =
+        [[DemandDataController alloc]initWithSocket:(MituSocket*)_mituSocket
+                                              queue:(dispatch_queue_t)queue];
+    
+    //■ マスターシーンの[ dataController ]プロパティに割り当て
+    secondViewController.dataController = demandDataController;
+#endif
+#if 1
+    //● Payment ●
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:2];
+
+    PaymentViewController *thirdViewController =
+    (PaymentViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    //■ データコントローラを初期化し、
+    PaymentDataController *paymentDataController =
+    [[PaymentDataController alloc]initWithSocket:(MituSocket*)_mituSocket
+                                          queue:(dispatch_queue_t)queue];
+
+    //■ マスターシーンの[ dataController ]プロパティに割り当て
+    thirdViewController.dataController = paymentDataController;
+#endif
+    
+    self.dataController = estimateDataController;
+    
     return YES;
 }
 							

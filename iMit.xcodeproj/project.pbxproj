@@ -17,8 +17,33 @@
 		6CA9625D162AF57A009CEF00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9625C162AF57A009CEF00 /* Default@2x.png */; };
 		6CA9625F162AF57A009CEF00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9625E162AF57A009CEF00 /* Default-568h@2x.png */; };
 		6CA96262162AF57A009CEF00 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA96260162AF57A009CEF00 /* MainStoryboard.storyboard */; };
-		6CA96265162AF57A009CEF00 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96264162AF57A009CEF00 /* MasterViewController.m */; };
-		6CA96268162AF57A009CEF00 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96267162AF57A009CEF00 /* DetailViewController.m */; };
+		6CA96273162AF766009CEF00 /* Diagnostics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96270162AF766009CEF00 /* Diagnostics.m */; };
+		6CA96274162AF766009CEF00 /* MituSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96272162AF766009CEF00 /* MituSocket.m */; };
+		6CA96280162AF77F009CEF00 /* CustomerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96277162AF77F009CEF00 /* CustomerDataController.m */; };
+		6CA96281162AF77F009CEF00 /* DemandDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96279162AF77F009CEF00 /* DemandDataController.m */; };
+		6CA96282162AF77F009CEF00 /* EstimateDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9627B162AF77F009CEF00 /* EstimateDataController.m */; };
+		6CA96283162AF77F009CEF00 /* PaymentDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9627D162AF77F009CEF00 /* PaymentDataController.m */; };
+		6CA96284162AF77F009CEF00 /* SectionDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9627F162AF77F009CEF00 /* SectionDataController.m */; };
+		6CA962AF162AF79C009CEF00 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96287162AF79C009CEF00 /* Customer.m */; };
+		6CA962B0162AF79C009CEF00 /* Demand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96289162AF79C009CEF00 /* Demand.m */; };
+		6CA962B1162AF79C009CEF00 /* Estimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9628B162AF79C009CEF00 /* Estimate.m */; };
+		6CA962B2162AF79C009CEF00 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9628D162AF79C009CEF00 /* Payment.m */; };
+		6CA962B3162AF79C009CEF00 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9628F162AF79C009CEF00 /* Section.m */; };
+		6CA962B4162AF79C009CEF00 /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96292162AF79C009CEF00 /* AddCustomerViewController.m */; };
+		6CA962B5162AF79C009CEF00 /* AddDemandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96294162AF79C009CEF00 /* AddDemandViewController.m */; };
+		6CA962B6162AF79C009CEF00 /* AddEstimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96296162AF79C009CEF00 /* AddEstimateViewController.m */; };
+		6CA962B7162AF79C009CEF00 /* AddPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA96298162AF79C009CEF00 /* AddPaymentViewController.m */; };
+		6CA962B8162AF79C009CEF00 /* AddSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9629A162AF79C009CEF00 /* AddSectionViewController.m */; };
+		6CA962B9162AF79C009CEF00 /* CustomerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9629C162AF79C009CEF00 /* CustomerDetailViewController.m */; };
+		6CA962BA162AF79C009CEF00 /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9629E162AF79C009CEF00 /* CustomerViewController.m */; };
+		6CA962BB162AF79C009CEF00 /* DemandDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962A0162AF79C009CEF00 /* DemandDetailViewController.m */; };
+		6CA962BC162AF79C009CEF00 /* DemandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962A2162AF79C009CEF00 /* DemandViewController.m */; };
+		6CA962BD162AF79C009CEF00 /* EstimateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962A4162AF79C009CEF00 /* EstimateDetailViewController.m */; };
+		6CA962BE162AF79C009CEF00 /* EstimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962A6162AF79C009CEF00 /* EstimateViewController.m */; };
+		6CA962BF162AF79C009CEF00 /* PaymentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962A8162AF79C009CEF00 /* PaymentDetailViewController.m */; };
+		6CA962C0162AF79C009CEF00 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AA162AF79C009CEF00 /* PaymentViewController.m */; };
+		6CA962C1162AF79C009CEF00 /* SectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */; };
+		6CA962C2162AF79C009CEF00 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AE162AF79C009CEF00 /* SectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +61,60 @@
 		6CA9625C162AF57A009CEF00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6CA9625E162AF57A009CEF00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6CA96261162AF57A009CEF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6CA96263162AF57A009CEF00 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		6CA96264162AF57A009CEF00 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		6CA96266162AF57A009CEF00 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		6CA96267162AF57A009CEF00 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6CA9626F162AF766009CEF00 /* Diagnostics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diagnostics.h; sourceTree = "<group>"; };
+		6CA96270162AF766009CEF00 /* Diagnostics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diagnostics.m; sourceTree = "<group>"; };
+		6CA96271162AF766009CEF00 /* MituSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MituSocket.h; sourceTree = "<group>"; };
+		6CA96272162AF766009CEF00 /* MituSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MituSocket.m; sourceTree = "<group>"; };
+		6CA96276162AF77F009CEF00 /* CustomerDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDataController.h; sourceTree = "<group>"; };
+		6CA96277162AF77F009CEF00 /* CustomerDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDataController.m; sourceTree = "<group>"; };
+		6CA96278162AF77F009CEF00 /* DemandDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandDataController.h; sourceTree = "<group>"; };
+		6CA96279162AF77F009CEF00 /* DemandDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandDataController.m; sourceTree = "<group>"; };
+		6CA9627A162AF77F009CEF00 /* EstimateDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstimateDataController.h; sourceTree = "<group>"; };
+		6CA9627B162AF77F009CEF00 /* EstimateDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstimateDataController.m; sourceTree = "<group>"; };
+		6CA9627C162AF77F009CEF00 /* PaymentDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDataController.h; sourceTree = "<group>"; };
+		6CA9627D162AF77F009CEF00 /* PaymentDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentDataController.m; sourceTree = "<group>"; };
+		6CA9627E162AF77F009CEF00 /* SectionDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDataController.h; sourceTree = "<group>"; };
+		6CA9627F162AF77F009CEF00 /* SectionDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDataController.m; sourceTree = "<group>"; };
+		6CA96286162AF79C009CEF00 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		6CA96287162AF79C009CEF00 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		6CA96288162AF79C009CEF00 /* Demand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demand.h; sourceTree = "<group>"; };
+		6CA96289162AF79C009CEF00 /* Demand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demand.m; sourceTree = "<group>"; };
+		6CA9628A162AF79C009CEF00 /* Estimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estimate.h; sourceTree = "<group>"; };
+		6CA9628B162AF79C009CEF00 /* Estimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estimate.m; sourceTree = "<group>"; };
+		6CA9628C162AF79C009CEF00 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		6CA9628D162AF79C009CEF00 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		6CA9628E162AF79C009CEF00 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		6CA9628F162AF79C009CEF00 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		6CA96291162AF79C009CEF00 /* AddCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
+		6CA96292162AF79C009CEF00 /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerViewController.m; sourceTree = "<group>"; };
+		6CA96293162AF79C009CEF00 /* AddDemandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDemandViewController.h; sourceTree = "<group>"; };
+		6CA96294162AF79C009CEF00 /* AddDemandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDemandViewController.m; sourceTree = "<group>"; };
+		6CA96295162AF79C009CEF00 /* AddEstimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEstimateViewController.h; sourceTree = "<group>"; };
+		6CA96296162AF79C009CEF00 /* AddEstimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEstimateViewController.m; sourceTree = "<group>"; };
+		6CA96297162AF79C009CEF00 /* AddPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPaymentViewController.h; sourceTree = "<group>"; };
+		6CA96298162AF79C009CEF00 /* AddPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPaymentViewController.m; sourceTree = "<group>"; };
+		6CA96299162AF79C009CEF00 /* AddSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSectionViewController.h; sourceTree = "<group>"; };
+		6CA9629A162AF79C009CEF00 /* AddSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSectionViewController.m; sourceTree = "<group>"; };
+		6CA9629B162AF79C009CEF00 /* CustomerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDetailViewController.h; sourceTree = "<group>"; };
+		6CA9629C162AF79C009CEF00 /* CustomerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDetailViewController.m; sourceTree = "<group>"; };
+		6CA9629D162AF79C009CEF00 /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		6CA9629E162AF79C009CEF00 /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		6CA9629F162AF79C009CEF00 /* DemandDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandDetailViewController.h; sourceTree = "<group>"; };
+		6CA962A0162AF79C009CEF00 /* DemandDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandDetailViewController.m; sourceTree = "<group>"; };
+		6CA962A1162AF79C009CEF00 /* DemandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandViewController.h; sourceTree = "<group>"; };
+		6CA962A2162AF79C009CEF00 /* DemandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandViewController.m; sourceTree = "<group>"; };
+		6CA962A3162AF79C009CEF00 /* EstimateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstimateDetailViewController.h; sourceTree = "<group>"; };
+		6CA962A4162AF79C009CEF00 /* EstimateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstimateDetailViewController.m; sourceTree = "<group>"; };
+		6CA962A5162AF79C009CEF00 /* EstimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstimateViewController.h; sourceTree = "<group>"; };
+		6CA962A6162AF79C009CEF00 /* EstimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstimateViewController.m; sourceTree = "<group>"; };
+		6CA962A7162AF79C009CEF00 /* PaymentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDetailViewController.h; sourceTree = "<group>"; };
+		6CA962A8162AF79C009CEF00 /* PaymentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentDetailViewController.m; sourceTree = "<group>"; };
+		6CA962A9162AF79C009CEF00 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		6CA962AA162AF79C009CEF00 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		6CA962AB162AF79C009CEF00 /* SectionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDetailViewController.h; sourceTree = "<group>"; };
+		6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDetailViewController.m; sourceTree = "<group>"; };
+		6CA962AD162AF79C009CEF00 /* SectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		6CA962AE162AF79C009CEF00 /* SectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +161,13 @@
 		6CA9624E162AF57A009CEF00 /* iMit */ = {
 			isa = PBXGroup;
 			children = (
+				6CA96285162AF79C009CEF00 /* Model */,
+				6CA96290162AF79C009CEF00 /* ViewController */,
+				6CA96275162AF77F009CEF00 /* DataController */,
+				6CA9626E162AF766009CEF00 /* Framework */,
 				6CA96257162AF57A009CEF00 /* AppDelegate.h */,
 				6CA96258162AF57A009CEF00 /* AppDelegate.m */,
 				6CA96260162AF57A009CEF00 /* MainStoryboard.storyboard */,
-				6CA96263162AF57A009CEF00 /* MasterViewController.h */,
-				6CA96264162AF57A009CEF00 /* MasterViewController.m */,
-				6CA96266162AF57A009CEF00 /* DetailViewController.h */,
-				6CA96267162AF57A009CEF00 /* DetailViewController.m */,
 				6CA9624F162AF57A009CEF00 /* Supporting Files */,
 			);
 			path = iMit;
@@ -110,6 +185,88 @@
 				6CA9625E162AF57A009CEF00 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA9626E162AF766009CEF00 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9626F162AF766009CEF00 /* Diagnostics.h */,
+				6CA96270162AF766009CEF00 /* Diagnostics.m */,
+				6CA96271162AF766009CEF00 /* MituSocket.h */,
+				6CA96272162AF766009CEF00 /* MituSocket.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		6CA96275162AF77F009CEF00 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				6CA96276162AF77F009CEF00 /* CustomerDataController.h */,
+				6CA96277162AF77F009CEF00 /* CustomerDataController.m */,
+				6CA96278162AF77F009CEF00 /* DemandDataController.h */,
+				6CA96279162AF77F009CEF00 /* DemandDataController.m */,
+				6CA9627A162AF77F009CEF00 /* EstimateDataController.h */,
+				6CA9627B162AF77F009CEF00 /* EstimateDataController.m */,
+				6CA9627C162AF77F009CEF00 /* PaymentDataController.h */,
+				6CA9627D162AF77F009CEF00 /* PaymentDataController.m */,
+				6CA9627E162AF77F009CEF00 /* SectionDataController.h */,
+				6CA9627F162AF77F009CEF00 /* SectionDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		6CA96285162AF79C009CEF00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CA96286162AF79C009CEF00 /* Customer.h */,
+				6CA96287162AF79C009CEF00 /* Customer.m */,
+				6CA96288162AF79C009CEF00 /* Demand.h */,
+				6CA96289162AF79C009CEF00 /* Demand.m */,
+				6CA9628A162AF79C009CEF00 /* Estimate.h */,
+				6CA9628B162AF79C009CEF00 /* Estimate.m */,
+				6CA9628C162AF79C009CEF00 /* Payment.h */,
+				6CA9628D162AF79C009CEF00 /* Payment.m */,
+				6CA9628E162AF79C009CEF00 /* Section.h */,
+				6CA9628F162AF79C009CEF00 /* Section.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA96290162AF79C009CEF00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CA96291162AF79C009CEF00 /* AddCustomerViewController.h */,
+				6CA96292162AF79C009CEF00 /* AddCustomerViewController.m */,
+				6CA96293162AF79C009CEF00 /* AddDemandViewController.h */,
+				6CA96294162AF79C009CEF00 /* AddDemandViewController.m */,
+				6CA96295162AF79C009CEF00 /* AddEstimateViewController.h */,
+				6CA96296162AF79C009CEF00 /* AddEstimateViewController.m */,
+				6CA96297162AF79C009CEF00 /* AddPaymentViewController.h */,
+				6CA96298162AF79C009CEF00 /* AddPaymentViewController.m */,
+				6CA96299162AF79C009CEF00 /* AddSectionViewController.h */,
+				6CA9629A162AF79C009CEF00 /* AddSectionViewController.m */,
+				6CA9629B162AF79C009CEF00 /* CustomerDetailViewController.h */,
+				6CA9629C162AF79C009CEF00 /* CustomerDetailViewController.m */,
+				6CA9629D162AF79C009CEF00 /* CustomerViewController.h */,
+				6CA9629E162AF79C009CEF00 /* CustomerViewController.m */,
+				6CA9629F162AF79C009CEF00 /* DemandDetailViewController.h */,
+				6CA962A0162AF79C009CEF00 /* DemandDetailViewController.m */,
+				6CA962A1162AF79C009CEF00 /* DemandViewController.h */,
+				6CA962A2162AF79C009CEF00 /* DemandViewController.m */,
+				6CA962A3162AF79C009CEF00 /* EstimateDetailViewController.h */,
+				6CA962A4162AF79C009CEF00 /* EstimateDetailViewController.m */,
+				6CA962A5162AF79C009CEF00 /* EstimateViewController.h */,
+				6CA962A6162AF79C009CEF00 /* EstimateViewController.m */,
+				6CA962A7162AF79C009CEF00 /* PaymentDetailViewController.h */,
+				6CA962A8162AF79C009CEF00 /* PaymentDetailViewController.m */,
+				6CA962A9162AF79C009CEF00 /* PaymentViewController.h */,
+				6CA962AA162AF79C009CEF00 /* PaymentViewController.m */,
+				6CA962AB162AF79C009CEF00 /* SectionDetailViewController.h */,
+				6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */,
+				6CA962AD162AF79C009CEF00 /* SectionViewController.h */,
+				6CA962AE162AF79C009CEF00 /* SectionViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +337,33 @@
 			files = (
 				6CA96255162AF57A009CEF00 /* main.m in Sources */,
 				6CA96259162AF57A009CEF00 /* AppDelegate.m in Sources */,
-				6CA96265162AF57A009CEF00 /* MasterViewController.m in Sources */,
-				6CA96268162AF57A009CEF00 /* DetailViewController.m in Sources */,
+				6CA96273162AF766009CEF00 /* Diagnostics.m in Sources */,
+				6CA96274162AF766009CEF00 /* MituSocket.m in Sources */,
+				6CA96280162AF77F009CEF00 /* CustomerDataController.m in Sources */,
+				6CA96281162AF77F009CEF00 /* DemandDataController.m in Sources */,
+				6CA96282162AF77F009CEF00 /* EstimateDataController.m in Sources */,
+				6CA96283162AF77F009CEF00 /* PaymentDataController.m in Sources */,
+				6CA96284162AF77F009CEF00 /* SectionDataController.m in Sources */,
+				6CA962AF162AF79C009CEF00 /* Customer.m in Sources */,
+				6CA962B0162AF79C009CEF00 /* Demand.m in Sources */,
+				6CA962B1162AF79C009CEF00 /* Estimate.m in Sources */,
+				6CA962B2162AF79C009CEF00 /* Payment.m in Sources */,
+				6CA962B3162AF79C009CEF00 /* Section.m in Sources */,
+				6CA962B4162AF79C009CEF00 /* AddCustomerViewController.m in Sources */,
+				6CA962B5162AF79C009CEF00 /* AddDemandViewController.m in Sources */,
+				6CA962B6162AF79C009CEF00 /* AddEstimateViewController.m in Sources */,
+				6CA962B7162AF79C009CEF00 /* AddPaymentViewController.m in Sources */,
+				6CA962B8162AF79C009CEF00 /* AddSectionViewController.m in Sources */,
+				6CA962B9162AF79C009CEF00 /* CustomerDetailViewController.m in Sources */,
+				6CA962BA162AF79C009CEF00 /* CustomerViewController.m in Sources */,
+				6CA962BB162AF79C009CEF00 /* DemandDetailViewController.m in Sources */,
+				6CA962BC162AF79C009CEF00 /* DemandViewController.m in Sources */,
+				6CA962BD162AF79C009CEF00 /* EstimateDetailViewController.m in Sources */,
+				6CA962BE162AF79C009CEF00 /* EstimateViewController.m in Sources */,
+				6CA962BF162AF79C009CEF00 /* PaymentDetailViewController.m in Sources */,
+				6CA962C0162AF79C009CEF00 /* PaymentViewController.m in Sources */,
+				6CA962C1162AF79C009CEF00 /* SectionDetailViewController.m in Sources */,
+				6CA962C2162AF79C009CEF00 /* SectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
