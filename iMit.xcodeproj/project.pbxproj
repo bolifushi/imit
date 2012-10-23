@@ -44,6 +44,12 @@
 		6CA962C0162AF79C009CEF00 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AA162AF79C009CEF00 /* PaymentViewController.m */; };
 		6CA962C1162AF79C009CEF00 /* SectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */; };
 		6CA962C2162AF79C009CEF00 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA962AE162AF79C009CEF00 /* SectionViewController.m */; };
+		6CAEB853163687F5000F5468 /* Sales.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEB852163687F5000F5468 /* Sales.m */; };
+		6CAEB85616368915000F5468 /* SalesDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEB85516368915000F5468 /* SalesDataController.m */; };
+		6CAEB85916368B43000F5468 /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEB85816368B43000F5468 /* SalesViewController.m */; };
+		6CBAEA69162D109000AB2DCB /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBAEA68162D109000AB2DCB /* ConfigViewController.m */; };
+		6CCE501C1630CC0300BAE2FE /* HTSegueNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */; };
+		6CCE501F1630CE4000BAE2FE /* HTSegueFlipFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +121,18 @@
 		6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDetailViewController.m; sourceTree = "<group>"; };
 		6CA962AD162AF79C009CEF00 /* SectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
 		6CA962AE162AF79C009CEF00 /* SectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		6CAEB85016368778000F5468 /* Sales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sales.h; sourceTree = "<group>"; };
+		6CAEB852163687F5000F5468 /* Sales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sales.m; sourceTree = "<group>"; };
+		6CAEB85416368891000F5468 /* SalesDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDataController.h; sourceTree = "<group>"; };
+		6CAEB85516368915000F5468 /* SalesDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDataController.m; sourceTree = "<group>"; };
+		6CAEB85716368B17000F5468 /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
+		6CAEB85816368B43000F5468 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
+		6CBAEA67162D109000AB2DCB /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigViewController.h; path = iMit/ViewController/ConfigViewController.h; sourceTree = "<group>"; };
+		6CBAEA68162D109000AB2DCB /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigViewController.m; path = iMit/ViewController/ConfigViewController.m; sourceTree = "<group>"; };
+		6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTSegueNormal.h; path = Framework/HTSegueNormal.h; sourceTree = "<group>"; };
+		6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTSegueNormal.m; path = Framework/HTSegueNormal.m; sourceTree = "<group>"; };
+		6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTSegueFlipFromRight.m; path = Framework/HTSegueFlipFromRight.m; sourceTree = "<group>"; };
+		6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTSegueFlipFromRight.h; path = Framework/HTSegueFlipFromRight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +152,8 @@
 		6CA96239162AF57A009CEF00 = {
 			isa = PBXGroup;
 			children = (
+				6CBAEA67162D109000AB2DCB /* ConfigViewController.h */,
+				6CBAEA68162D109000AB2DCB /* ConfigViewController.m */,
 				6CA9624E162AF57A009CEF00 /* iMit */,
 				6CA96247162AF57A009CEF00 /* Frameworks */,
 				6CA96245162AF57A009CEF00 /* Products */,
@@ -168,6 +188,10 @@
 				6CA96257162AF57A009CEF00 /* AppDelegate.h */,
 				6CA96258162AF57A009CEF00 /* AppDelegate.m */,
 				6CA96260162AF57A009CEF00 /* MainStoryboard.storyboard */,
+				6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */,
+				6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */,
+				6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */,
+				6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */,
 				6CA9624F162AF57A009CEF00 /* Supporting Files */,
 			);
 			path = iMit;
@@ -211,6 +235,8 @@
 				6CA9627D162AF77F009CEF00 /* PaymentDataController.m */,
 				6CA9627E162AF77F009CEF00 /* SectionDataController.h */,
 				6CA9627F162AF77F009CEF00 /* SectionDataController.m */,
+				6CAEB85416368891000F5468 /* SalesDataController.h */,
+				6CAEB85516368915000F5468 /* SalesDataController.m */,
 			);
 			path = DataController;
 			sourceTree = "<group>";
@@ -228,6 +254,8 @@
 				6CA9628D162AF79C009CEF00 /* Payment.m */,
 				6CA9628E162AF79C009CEF00 /* Section.h */,
 				6CA9628F162AF79C009CEF00 /* Section.m */,
+				6CAEB85016368778000F5468 /* Sales.h */,
+				6CAEB852163687F5000F5468 /* Sales.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +293,8 @@
 				6CA962AC162AF79C009CEF00 /* SectionDetailViewController.m */,
 				6CA962AD162AF79C009CEF00 /* SectionViewController.h */,
 				6CA962AE162AF79C009CEF00 /* SectionViewController.m */,
+				6CAEB85716368B17000F5468 /* SalesViewController.h */,
+				6CAEB85816368B43000F5468 /* SalesViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -364,6 +394,12 @@
 				6CA962C0162AF79C009CEF00 /* PaymentViewController.m in Sources */,
 				6CA962C1162AF79C009CEF00 /* SectionDetailViewController.m in Sources */,
 				6CA962C2162AF79C009CEF00 /* SectionViewController.m in Sources */,
+				6CBAEA69162D109000AB2DCB /* ConfigViewController.m in Sources */,
+				6CCE501C1630CC0300BAE2FE /* HTSegueNormal.m in Sources */,
+				6CCE501F1630CE4000BAE2FE /* HTSegueFlipFromRight.m in Sources */,
+				6CAEB853163687F5000F5468 /* Sales.m in Sources */,
+				6CAEB85616368915000F5468 /* SalesDataController.m in Sources */,
+				6CAEB85916368B43000F5468 /* SalesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +516,7 @@
 				6CA9626D162AF57A009CEF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
