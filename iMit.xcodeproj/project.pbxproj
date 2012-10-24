@@ -129,10 +129,10 @@
 		6CAEB85816368B43000F5468 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
 		6CBAEA67162D109000AB2DCB /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigViewController.h; path = iMit/ViewController/ConfigViewController.h; sourceTree = "<group>"; };
 		6CBAEA68162D109000AB2DCB /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigViewController.m; path = iMit/ViewController/ConfigViewController.m; sourceTree = "<group>"; };
-		6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTSegueNormal.h; path = Framework/HTSegueNormal.h; sourceTree = "<group>"; };
-		6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTSegueNormal.m; path = Framework/HTSegueNormal.m; sourceTree = "<group>"; };
-		6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTSegueFlipFromRight.m; path = Framework/HTSegueFlipFromRight.m; sourceTree = "<group>"; };
-		6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTSegueFlipFromRight.h; path = Framework/HTSegueFlipFromRight.h; sourceTree = "<group>"; };
+		6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSegueNormal.h; sourceTree = "<group>"; };
+		6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSegueNormal.m; sourceTree = "<group>"; };
+		6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSegueFlipFromRight.m; sourceTree = "<group>"; };
+		6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSegueFlipFromRight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,10 +188,6 @@
 				6CA96257162AF57A009CEF00 /* AppDelegate.h */,
 				6CA96258162AF57A009CEF00 /* AppDelegate.m */,
 				6CA96260162AF57A009CEF00 /* MainStoryboard.storyboard */,
-				6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */,
-				6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */,
-				6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */,
-				6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */,
 				6CA9624F162AF57A009CEF00 /* Supporting Files */,
 			);
 			path = iMit;
@@ -214,6 +210,10 @@
 		6CA9626E162AF766009CEF00 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				6CCE501A1630CC0300BAE2FE /* HTSegueNormal.h */,
+				6CCE501B1630CC0300BAE2FE /* HTSegueNormal.m */,
+				6CCE50201630CE4F00BAE2FE /* HTSegueFlipFromRight.h */,
+				6CCE501E1630CE4000BAE2FE /* HTSegueFlipFromRight.m */,
 				6CA9626F162AF766009CEF00 /* Diagnostics.h */,
 				6CA96270162AF766009CEF00 /* Diagnostics.m */,
 				6CA96271162AF766009CEF00 /* MituSocket.h */,

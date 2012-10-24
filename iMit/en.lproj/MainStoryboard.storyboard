@@ -1037,7 +1037,53 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osZ-Ub-02w" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="882"/>
+            <point key="canvasLocation" x="442" y="882"/>
+        </scene>
+        <!--Sales View Controller - 売上げ-->
+        <scene sceneID="CaK-xf-Zdu">
+            <objects>
+                <tableViewController id="gbW-fq-bIU" customClass="SalesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="m3f-lz-R1t">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SalesCell" textLabel="sMv-pm-VGy" detailTextLabel="Jah-Qe-dRt" style="IBUITableViewCellStyleSubtitle" id="ilg-24-419">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sMv-pm-VGy">
+                                            <rect key="frame" x="10" y="2" width="38" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jah-Qe-dRt">
+                                            <rect key="frame" x="10" y="24" width="47" height="18"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gbW-fq-bIU" id="Lg6-bA-sN3"/>
+                            <outlet property="delegate" destination="gbW-fq-bIU" id="mLG-eB-CM3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="売上げ" id="bj9-L9-AoE"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXI-cT-rkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-128" y="826"/>
         </scene>
         <!--Navigation Controller - Demand-->
         <scene sceneID="jHu-fb-rVa">
@@ -1056,7 +1102,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OSp-Ag-eA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-487" y="882"/>
+            <point key="canvasLocation" x="39" y="882"/>
         </scene>
         <!--Demand Detail View Controller-->
         <scene sceneID="yPI-bI-LSb">
@@ -1265,7 +1311,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K4z-7X-cKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318" y="796"/>
+            <point key="canvasLocation" x="844" y="796"/>
         </scene>
         <!--Add Demand View Controller-->
         <scene sceneID="4ON-d5-gyz">
@@ -1359,7 +1405,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSl-gm-xyQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="882"/>
+            <point key="canvasLocation" x="1645" y="882"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s5h-9r-USg">
@@ -1377,7 +1423,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yH8-lw-s7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717" y="877"/>
+            <point key="canvasLocation" x="1243" y="877"/>
         </scene>
         <!--Payment View Controller - Payment-->
         <scene sceneID="sb5-q8-zdy">
@@ -1636,7 +1682,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nze-Pw-EQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318" y="1439"/>
+            <point key="canvasLocation" x="844" y="1439"/>
         </scene>
         <!--Add Payment View Controller-->
         <scene sceneID="Kdp-Er-EoR">
@@ -1765,6 +1811,7 @@
                         <segue destination="qdS-a5-lgh" kind="relationship" relationship="viewControllers" id="K9w-VM-G8q"/>
                         <segue destination="J9N-fr-hge" kind="relationship" relationship="viewControllers" id="Jga-pf-OzM"/>
                         <segue destination="Fl7-Og-ahy" kind="relationship" relationship="viewControllers" id="b0w-mp-HFv"/>
+                        <segue destination="c58-Ra-V4o" kind="relationship" relationship="viewControllers" id="vsw-8q-K8b"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7b6-zM-0Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1889,6 +1936,25 @@
             </objects>
             <point key="canvasLocation" x="1456" y="307"/>
         </scene>
+        <!--Navigation Controller - Sales-->
+        <scene sceneID="Iy7-ts-nao">
+            <objects>
+                <navigationController id="c58-Ra-V4o" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sales" id="yhj-Zg-mh7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PJt-y7-eba">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gbW-fq-bIU" kind="relationship" relationship="rootViewController" id="S0P-5i-tpO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOX-9p-RH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-651" y="781"/>
+        </scene>
     </scenes>
     <classes>
         <class className="AddCustomerViewController" superclassName="UITableViewController">
@@ -1998,6 +2064,9 @@
         </class>
         <class className="PaymentViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PaymentViewController.h"/>
+        </class>
+        <class className="SalesViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SalesViewController.h"/>
         </class>
         <class className="SectionDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SectionDetailViewController.h"/>

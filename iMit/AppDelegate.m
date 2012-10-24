@@ -13,6 +13,8 @@
 #import "DemandDataController.h"
 #import "PaymentViewController.h"
 #import "PaymentDataController.h"
+#import "SalesViewController.h"
+#import "SalesDataController.h"
 #import "MituSocket.h"
 
 void uncaughtExceptionHandler(NSException *exception) {
@@ -117,6 +119,21 @@ void uncaughtExceptionHandler(NSException *exception) {
 
     //■ マスターシーンの[ dataController ]プロパティに割り当て
     thirdViewController.dataController = paymentDataController;
+#endif
+#if 1
+    //● Sales ●
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:4];
+    
+    SalesViewController *fourthViewController =
+    (SalesViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    //■ データコントローラを初期化し、
+    SalesDataController *salesDataController =
+    [[SalesDataController alloc]initWithSocket:(MituSocket*)_mituSocket
+                                           queue:(dispatch_queue_t)queue];
+    
+    //■ マスターシーンの[ dataController ]プロパティに割り当て
+    fourthViewController.dataController = salesDataController;
 #endif
     
     self.dataController = estimateDataController;

@@ -14,6 +14,8 @@
 @class DemandViewController;
 @class PaymentDataController;
 @class PaymentViewController;
+@class SalesDataController;
+@class SalesViewController;
 @class MituSocket;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -31,6 +33,7 @@
 //@property (strong, nonatomic) DemandDataController *dataController;
 @property (strong, nonatomic) DemandViewController *secondViewController;
 @property (strong, nonatomic) PaymentViewController *thirdViewController;
+@property (strong, nonatomic) SalesViewController *fourthViewController;
 #endif
 #if 0
 @property (strong, nonatomic) DemandDataController *dataController;

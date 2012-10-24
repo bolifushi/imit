@@ -70,7 +70,8 @@
     [[cell detailTextLabel]
         setText:[formatter stringFromDate:(NSDate *)salesAtIndex.date]];
 #endif
-    [[cell textLabel] setText:salesAtIndex.code];
+//    [[cell textLabel] setText:salesAtIndex.code];
+    [[cell textLabel] setText:salesAtIndex.amountMoney];
     [[cell detailTextLabel]setText:salesAtIndex.name];
 
     return cell;

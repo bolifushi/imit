@@ -51,7 +51,7 @@
             NSString* data;
 
             //請求情報の取得
-            [mituSocket GetData:&data withCommand:@"MITU_312012\t09\t\r\n"];
+            [mituSocket GetData:&data withCommand:@"MITU_312012\t10\t\r\n"];
         
             if ([data hasPrefix:(@"#Error#")]) {
                 dbgLog(@"data:%@", data);
@@ -65,7 +65,7 @@
             }
             
             do {
-                [mituSocket GetData:&data withCommand:@"MINT_312012\t09\t\r\n"];
+                [mituSocket GetData:&data withCommand:@"MINT_312012\t10\t\r\n"];
                 
                 if ([data hasPrefix:@"EOF"]) break;
                 
