@@ -13,7 +13,8 @@
 //■　カスタマイズイニシャライザメソッド
 - (id)initWithName:(NSString *)name
               code:(NSString *)code
-       amountMoney:(NSString *)amountMoney;
+       amountMoney:(NSString *)amountMoney
+        percentage:(NSString *)percentage;
 {
     self = [super init];
     if (self)
@@ -21,6 +22,7 @@
         _name = name;
         _code = code;
         _amountMoney = amountMoney;
+        _percentage = percentage;
         
         return self;
     }

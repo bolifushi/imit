@@ -71,8 +71,8 @@
         setText:[formatter stringFromDate:(NSDate *)salesAtIndex.date]];
 #endif
 //    [[cell textLabel] setText:salesAtIndex.code];
-    [[cell textLabel] setText:salesAtIndex.amountMoney];
-    [[cell detailTextLabel]setText:salesAtIndex.name];
+    [[cell detailTextLabel] setText:[NSString stringWithFormat:@"(%@%%) %@円",salesAtIndex.percentage,  salesAtIndex.amountMoney]];
+    [[cell textLabel]setText:salesAtIndex.name];
 
     return cell;
 }

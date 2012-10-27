@@ -37,7 +37,8 @@
 - (Sales *)objectInListAtIndex:(unsigned)theIndex;
 - (void)addPaymentWithName:(NSString *)inputName
                       code:(NSString *)inputCode
-               amountMoney:(NSString *)inputAmountMoney;
+               amountMoney:(NSString *)inputAmountMoney
+                percentage:(NSString *)inputPercentage;
 
 @end
 

@@ -122,7 +122,7 @@ void uncaughtExceptionHandler(NSException *exception) {
 #endif
 #if 1
     //● Sales ●
-    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:4];
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:3];
     
     SalesViewController *fourthViewController =
     (SalesViewController *)[[navigationController viewControllers] objectAtIndex:0];

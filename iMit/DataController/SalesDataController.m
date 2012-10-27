@@ -74,11 +74,12 @@
                 }
                 
                 NSArray *estArray = [data componentsSeparatedByString:@"\t"];
-                if([estArray count] >= 2)
+                if([estArray count] >= 4)
                 {
                     [self addSalesWithName:estArray[1]
-                                        code:estArray[0]
-                                 amountMoney:estArray[2]];
+                                      code:estArray[0]
+                               amountMoney:estArray[2]
+                                percentage:estArray[3]];
 
                     dispatch_async(dispatch_get_main_queue(), ^{
                         [[self delegate] SalesDataControllerDidReceive:self];
@@ -147,12 +148,14 @@
 - (void)addSalesWithName:(NSString *)inputName
                       code:(NSString *)inputCode
                amountMoney:(NSString *)inputAmountMoney
+                percentage:(NSString *)inputPercentage
 {
     Sales *sales;
 
     sales = [[Sales alloc] initWithName:inputName
-                                       code:inputCode
-                                amountMoney:inputAmountMoney];
+                                   code:inputCode
+                            amountMoney:inputAmountMoney
+                             percentage:inputPercentage];
     
     [self.masterSalesList addObject:sales];
 }
