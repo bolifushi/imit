@@ -15,6 +15,8 @@
 #import "PaymentDataController.h"
 #import "SalesViewController.h"
 #import "SalesDataController.h"
+#import "LogViewController.h"
+#import "LogDataController.h"
 #import "MituSocket.h"
 
 void uncaughtExceptionHandler(NSException *exception) {
@@ -33,17 +35,35 @@ void uncaughtExceptionHandler(NSException *exception) {
                 "net.bolifushi.toyomaint.serial_queue", NULL);
     
     _mituSocket = [[MituSocket alloc]init];
-#if 1
+#if 0
     _mituSocket.ipAddress = @"192.168.240.137";
 #endif
-#if 0
+#if 1
     _mituSocket.ipAddress = @"172.24.3.50";
 #endif
 #if 0
     _mituSocket.ipAddress = @"172.16.32.134";
 #endif
     _mituSocket.port = 8001;
-    [_mituSocket Connect];
+    if(![_mituSocket Connect])
+    {
+        UIAlertView *view = [[UIAlertView alloc] initWithTitle: @"Like It!"
+                                                       message:@"サーバーに接続できませんでした。"
+                                                      delegate:self
+                                             cancelButtonTitle:@"OK"
+                                             otherButtonTitles:nil];
+        [view show];
+        
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"確認します。"
+                              message:@"OKですか？"
+                              delegate:self
+                              cancelButtonTitle:@"キャンセル"
+                              otherButtonTitles:@"OK", nil];
+        [alert show];
+
+        exit(-1);
+    }
     
     //■ 自らの[ window ]プロパテリを使用して、ウィンドウの[ RootViewController ]オブジェクトを取得
 #if 0
@@ -134,6 +154,21 @@ void uncaughtExceptionHandler(NSException *exception) {
     
     //■ マスターシーンの[ dataController ]プロパティに割り当て
     fourthViewController.dataController = salesDataController;
+#endif
+#if 1
+    //● Log ●
+    navigationController = (UINavigationController *)[[tabBarController viewControllers] objectAtIndex:4];
+    
+    LogViewController *fifthViewController =
+    (LogViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    //■ データコントローラを初期化し、
+    LogDataController *logDataController =
+    [[LogDataController alloc]initWithSocket:(MituSocket*)_mituSocket
+                                         queue:(dispatch_queue_t)queue];
+    
+    //■ マスターシーンの[ dataController ]プロパティに割り当て
+    fifthViewController.dataController = logDataController;
 #endif
     
     self.dataController = estimateDataController;

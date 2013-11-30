@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C7B9DDD173066390024D3A3 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B9DDC173066390024D3A3 /* Log.m */; };
+		6C7B9DE01730679F0024D3A3 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B9DDF1730679F0024D3A3 /* LogViewController.m */; };
+		6C7B9DE3173068280024D3A3 /* LogDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B9DE2173068280024D3A3 /* LogDataController.m */; };
+		6C8A824C163CA66F00162D9C /* P1_Under_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A824B163CA66F00162D9C /* P1_Under_6.png */; };
+		6C8A824E163CA68D00162D9C /* P1_Under_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A824D163CA68D00162D9C /* P1_Under_5.png */; };
+		6C8A8250163CA69C00162D9C /* P1_Under_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A824F163CA69C00162D9C /* P1_Under_4.png */; };
+		6C8A8252163CA6A800162D9C /* P1_Under_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A8251163CA6A800162D9C /* P1_Under_3.png */; };
+		6C8A8254163CA6B500162D9C /* P1_Under_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A8253163CA6B500162D9C /* P1_Under_2.png */; };
+		6C8A8256163CA6C100162D9C /* P1_Under_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A8255163CA6C100162D9C /* P1_Under_1.png */; };
 		6CA96249162AF57A009CEF00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA96248162AF57A009CEF00 /* UIKit.framework */; };
 		6CA9624B162AF57A009CEF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9624A162AF57A009CEF00 /* Foundation.framework */; };
 		6CA9624D162AF57A009CEF00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9624C162AF57A009CEF00 /* CoreGraphics.framework */; };
@@ -53,6 +62,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C7B9DDB173066390024D3A3 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		6C7B9DDC173066390024D3A3 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		6C7B9DDE1730679F0024D3A3 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		6C7B9DDF1730679F0024D3A3 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		6C7B9DE1173068280024D3A3 /* LogDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDataController.h; sourceTree = "<group>"; };
+		6C7B9DE2173068280024D3A3 /* LogDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDataController.m; sourceTree = "<group>"; };
+		6C8A824B163CA66F00162D9C /* P1_Under_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_6.png; sourceTree = "<group>"; };
+		6C8A824D163CA68D00162D9C /* P1_Under_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_5.png; sourceTree = "<group>"; };
+		6C8A824F163CA69C00162D9C /* P1_Under_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_4.png; sourceTree = "<group>"; };
+		6C8A8251163CA6A800162D9C /* P1_Under_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_3.png; sourceTree = "<group>"; };
+		6C8A8253163CA6B500162D9C /* P1_Under_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_2.png; sourceTree = "<group>"; };
+		6C8A8255163CA6C100162D9C /* P1_Under_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1_Under_1.png; sourceTree = "<group>"; };
 		6CA96244162AF57A009CEF00 /* iMit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA96248162AF57A009CEF00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CA9624A162AF57A009CEF00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -149,6 +170,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C8A8249163CA64A00162D9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A824B163CA66F00162D9C /* P1_Under_6.png */,
+				6C8A824D163CA68D00162D9C /* P1_Under_5.png */,
+				6C8A824F163CA69C00162D9C /* P1_Under_4.png */,
+				6C8A8251163CA6A800162D9C /* P1_Under_3.png */,
+				6C8A8253163CA6B500162D9C /* P1_Under_2.png */,
+				6C8A8255163CA6C100162D9C /* P1_Under_1.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		6CA96239162AF57A009CEF00 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +215,7 @@
 		6CA9624E162AF57A009CEF00 /* iMit */ = {
 			isa = PBXGroup;
 			children = (
+				6C8A8249163CA64A00162D9C /* Resources */,
 				6CA96285162AF79C009CEF00 /* Model */,
 				6CA96290162AF79C009CEF00 /* ViewController */,
 				6CA96275162AF77F009CEF00 /* DataController */,
@@ -237,6 +272,8 @@
 				6CA9627F162AF77F009CEF00 /* SectionDataController.m */,
 				6CAEB85416368891000F5468 /* SalesDataController.h */,
 				6CAEB85516368915000F5468 /* SalesDataController.m */,
+				6C7B9DE1173068280024D3A3 /* LogDataController.h */,
+				6C7B9DE2173068280024D3A3 /* LogDataController.m */,
 			);
 			path = DataController;
 			sourceTree = "<group>";
@@ -256,6 +293,8 @@
 				6CA9628F162AF79C009CEF00 /* Section.m */,
 				6CAEB85016368778000F5468 /* Sales.h */,
 				6CAEB852163687F5000F5468 /* Sales.m */,
+				6C7B9DDB173066390024D3A3 /* Log.h */,
+				6C7B9DDC173066390024D3A3 /* Log.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +334,8 @@
 				6CA962AE162AF79C009CEF00 /* SectionViewController.m */,
 				6CAEB85716368B17000F5468 /* SalesViewController.h */,
 				6CAEB85816368B43000F5468 /* SalesViewController.m */,
+				6C7B9DDE1730679F0024D3A3 /* LogViewController.h */,
+				6C7B9DDF1730679F0024D3A3 /* LogViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -355,6 +396,12 @@
 				6CA9625D162AF57A009CEF00 /* Default@2x.png in Resources */,
 				6CA9625F162AF57A009CEF00 /* Default-568h@2x.png in Resources */,
 				6CA96262162AF57A009CEF00 /* MainStoryboard.storyboard in Resources */,
+				6C8A824C163CA66F00162D9C /* P1_Under_6.png in Resources */,
+				6C8A824E163CA68D00162D9C /* P1_Under_5.png in Resources */,
+				6C8A8250163CA69C00162D9C /* P1_Under_4.png in Resources */,
+				6C8A8252163CA6A800162D9C /* P1_Under_3.png in Resources */,
+				6C8A8254163CA6B500162D9C /* P1_Under_2.png in Resources */,
+				6C8A8256163CA6C100162D9C /* P1_Under_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +447,9 @@
 				6CAEB853163687F5000F5468 /* Sales.m in Sources */,
 				6CAEB85616368915000F5468 /* SalesDataController.m in Sources */,
 				6CAEB85916368B43000F5468 /* SalesViewController.m in Sources */,
+				6C7B9DDD173066390024D3A3 /* Log.m in Sources */,
+				6C7B9DE01730679F0024D3A3 /* LogViewController.m in Sources */,
+				6C7B9DE3173068280024D3A3 /* LogDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +484,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -449,6 +500,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -462,6 +514,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -470,6 +523,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

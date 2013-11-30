@@ -6,9 +6,9 @@
 //--------------------------------------------------------------//
 #pragma mark -- [ Instance method ] --
 //--------------------------------------------------------------//
--(void)Connect
+-(BOOL)Connect
 {
-    [self connectMaintServer];
+    return [self connectMaintServer];
 }
 
 -(void)Disconnect
@@ -18,6 +18,14 @@
 
 -(void)GetData:(NSString **)data withCommand:(NSString *)command
 {
+    if( !isConnected)
+    {
+        if(![self connectMaintServer])
+        {
+            return;
+        }
+    }
+
     [self writeData:command];
     *data = [self readData];
 }
@@ -27,7 +35,7 @@
 //--------------------------------------------------------------//
 
 // MaintServerに接続
--(void)connectMaintServer
+-(BOOL)connectMaintServer
 {
     struct sockaddr_in server;
     char *deststr;
@@ -39,7 +47,7 @@
         sock = socket(AF_INET, SOCK_STREAM, 0);
         if((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
             dbgLog(@"エラー  [ socket create ]");
-            return;
+            return FALSE;
         }
         
         server.sin_family = AF_INET;
@@ -49,13 +57,17 @@
         
         if(connect(sock, (struct sockaddr *)&server, sizeof(server)) < 0){
             dbgLog(@"エラー [ socket connect ]");
-            return;
+            return FALSE;
         }
     }
+    isConnected = TRUE;
+    return TRUE;
 }
 // MaintServerから切断
--(void)disconnectMituServer{
+-(void)disconnectMituServer
+{
     close(sock);
+    isConnected = FALSE;
 }
 
 // 送信

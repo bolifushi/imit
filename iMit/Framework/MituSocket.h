@@ -7,13 +7,13 @@
 @interface MituSocket : NSObject
 {
     int sock;
-
+    BOOL isConnected;
 }
 
 @property (nonatomic, copy) NSString *ipAddress;
 @property NSUInteger port;
 
--(void)Connect;
+-(BOOL)Connect;
 -(void)Disconnect;
 -(void)GetData:(NSString**)data withCommand:(NSString*)command;
 
