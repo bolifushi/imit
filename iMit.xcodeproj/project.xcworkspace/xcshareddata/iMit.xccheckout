@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B3D14AC-DACF-457C-9FEB-65A5C2A0D0C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iMit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA2E0714-5D43-4CAE-B71A-4889019A5C93</key>
+		<string>https://iMac.local/git/iMit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iMit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA2E0714-5D43-4CAE-B71A-4889019A5C93</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://iMac.local/git/iMit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA2E0714-5D43-4CAE-B71A-4889019A5C93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA2E0714-5D43-4CAE-B71A-4889019A5C93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iMit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
